@@ -48,3 +48,7 @@
       mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
       -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
     }
+
+    .hero-image {
+      transform: translate(0,0) rotateZ(-25deg) z-index(0) scale(1.1);
+    }
