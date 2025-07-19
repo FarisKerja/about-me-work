@@ -1,0 +1,50 @@
+    @font-face {
+        font-family: 'Rubik';
+        src: url('fonts/Rubik-Regular.ttf') format('truetype');
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: 'Rubik';
+        src: url('fonts/Rubik-Bold.ttf') format('truetype');
+        font-weight: 700;
+    }
+
+    @font-face {
+        font-family: 'Rubik';
+        src: url('fonts/Rubik-Medium.ttf') format('truetype');
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: 'Rubik';
+        src: url('fonts/Rubik-SemiBold.ttf') format('truetype');
+        font-weight: 600;
+    }
+
+    @font-face {
+        font-family: 'Rubik';
+        src: url('fonts/Rubik-Light.ttf') format('truetype');
+        font-weight: 300;
+    }
+
+    @font-face {
+        font-family: 'Rubik';
+        src: url('fonts/Rubik-Regular.ttf') format('truetype');
+        font-weight: 400;
+    }
+
+    /* Smooth infinite animation */
+    @keyframes scrollX {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    .infinite-scroll {
+      animation: scrollX 60s linear infinite !important;
+    }
+
+    .carousel-wrapper {
+      mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+      -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+    }
